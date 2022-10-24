@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import {
   BrowserRouter, Link, Route, Routes, useNavigate, useParams,
 } from 'react-router-dom';
-import { useDelayedState, useField } from './hooks';
+import { useField } from './hooks';
 
 function Menu() {
   const padding = {
